@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Dashboard Penjualan Mobil", layout="wide")
+st.set_page_config(page_title="Dashboard Penjualan Mobil Indonesia Jan-Jun 2024", layout="wide")
 st.title("📊 Dashboard Penjualan Mobil")
 
 df = pd.read_csv("penjualan_mobil_indonesia_jan_jun_2024.csv")
